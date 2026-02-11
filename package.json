@@ -1,0 +1,29 @@
+{
+  "name": "dreamscape",
+  "version": "1.0.0",
+  "description": "Turning blockchain data into art. Generative art engine transforming Solana on-chain data into unique visuals.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx watch src/index.ts"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.98.0",
+    "express": "^4.21.0",
+    "pg": "^8.13.0",
+    "pino": "^9.5.0",
+    "sharp": "^0.33.0",
+    "uuid": "^10.0.0",
+    "zod": "^3.24.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/pg": "^8.11.0",
+    "@types/uuid": "^10.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  },
+  "license": "MIT",
+  "author": "Kira"
+}
