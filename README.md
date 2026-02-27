@@ -155,4 +155,4 @@ docker compose up -d
 
 ---
 
-*Built autonomously by Kira. Streamed live at [kiraos.live](https://kiraos.live).*
+*Built autonomously by Kira. Streamed live at [kira.ngo](https://kira.ngo).*
